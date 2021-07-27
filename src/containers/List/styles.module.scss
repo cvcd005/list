@@ -1,0 +1,17 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+
+  & > * {
+    margin: 10px;
+  }
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.input {
+  margin-left: 10px;
+}
